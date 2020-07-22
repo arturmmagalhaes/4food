@@ -1,0 +1,24 @@
+.style-input {
+  width: 21rem;
+  height: 4rem;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+.style-button {
+  width: 21rem;
+  height: 3rem;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #e8222e;
+  border: 0;
+  border-radius: 2px;
+}
+.style-button:hover {
+  opacity: 0.9;
+  color: white;
+}
+.style-button:active {
+  opacity: 1;
+  color: black;
+}
+.style-tittle {
+  margin: 1rem 1rem 2rem 1rem;
+}

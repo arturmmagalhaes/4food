@@ -1,0 +1,31 @@
+.imageLogo {
+  width: 7rem;
+  height: 4rem;
+  margin: 1rem;
+}
+.style-tittle {
+  margin: 1rem 1rem 2rem 1rem;
+}
+.style-input {
+  width: 21rem;
+  height: 4rem;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+.style-button {
+  width: 21rem;
+  height: 3rem;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #e8222e;
+  border: 0;
+  border-radius: 2px;
+}
+.style-text {
+  margin: 1rem 2rem 1rem 2rem;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.link-text {
+  text-decoration: none;
+  color: inherit;
+}

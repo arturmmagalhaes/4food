@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  justify-content: center;
+  --lipstick: #e8222e;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Container {
+  width: 22.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow-x: scroll;
+}
+
+/* 
+====== Search
+*/
+
+.SearchInput {
+  width: 20.5rem;
+  height: 3.5rem;
+  border-radius: 2px;
+  border: solid 1px #b8b8b8;
+  margin: 1rem 0;
+}
+
+::placeholder {
+  padding: 2.5rem;
+}
+
+/* 
+====== Filter
+*/
+
+.FilterCard {
+  width: 22.5rem;
+  height: 2.625rem;
+  margin: 1rem;
+  overflow: auto;
+  overflow-x: scroll;
+}
+
+.Filter {
+  margin: 1rem;
+}
+
+.Filter:hover {
+  color: var(--lipstick);
+}
+
+/* 
+====== Card
+*/
+
+.Card {
+  border: solid 1px #b8b8b8;
+  width: 20.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+img {
+  width: 20.5rem;
+  height: 7.5rem;
+}
+
+.Restaurant {
+  width: 18.5rem;
+  height: 1.125rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -0.39px;
+
+  margin: 0.75rem 1rem;
+  text-align: left;
+  color: var(--lipstick);
+}
+
+.CardFooter {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Time-to-deliver {
+  width: 9.25rem;
+  height: 1.125rem;
+  font-size: 1rem;
+  letter-spacing: -0.39px;
+
+  margin: 0 1rem 1rem 1rem;
+  text-align: left;
+  color: #b8b8b8;
+}
+
+.Shipping-fee {
+  width: 8.75rem;
+  height: 1.125rem;
+  font-size: 1rem;
+  letter-spacing: -0.39px;
+
+  margin: 0 1rem 1rem 1rem;
+  text-align: right;
+  color: #b8b8b8;
+}

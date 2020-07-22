@@ -1,0 +1,137 @@
+.Canvas{
+    width: 90%;
+
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.SameLineText{
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CategoryCard{
+    margin-bottom: 20px;
+}
+
+.ProductCard{
+    position: relative;
+    display: flex;
+
+    border-radius: 5%;
+    border-width: 0.5px;
+    border-color: lightgray;
+    border-style: solid;
+
+    margin-top: 10px;
+    height: 120px;
+    min-width: 100%;
+    width: 100%;
+}
+
+.CardContent{
+    font-size: fit-width;
+    height: 100%;
+    width: 100%;
+}
+
+.CardContent {
+    display: flex;
+    margin: 10px 15px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 100%;
+}
+
+.CardContent > h6 {
+    font-size: 0.9rem;
+    color:red;
+}
+
+.CardContent > span{
+    font-size: 0.7rem;
+    color: #c4c4c4;
+}
+
+.CardContent > div > h6 {
+    font-size: 0.9rem;
+    color:black;
+}
+
+.OrderButton{
+    position: absolute;
+    background-color: white;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 10%;
+    padding: 5px 15px;
+    bottom: 0%;
+    right: 0%;
+}
+
+.OrderButtonRed{
+    position: absolute;
+    background-color: white;
+    color:#e02020;
+
+    border-color:#e02020;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 10%;
+    padding: 5px 15px;
+    bottom: 0%;
+    right: 0%;
+}
+
+.QuantityLabel{
+    position: absolute;
+    background-color: white;
+    color:#e02020;
+    
+    border: solid;
+    border-width: 0.5px;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 10%;
+
+    padding: 5px 10px;
+    top: 0%;
+    right: 0%;
+}
+
+.BlackScreen{
+    position: fixed;  
+    width: 100%;  
+    height: 100%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    background-color: rgba(0,0,0, 0.5); 
+}
+
+.select{
+    width: 90%;
+    height: 20%;
+}
+
+.popup{  
+    position: fixed;  
+    left: 10%;  
+    right: 10%;  
+    top: 33%;  
+    bottom: 33%;  
+    margin: auto;  
+    background-color: white;  
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.ButtonContainer{
+    display: flex;
+    justify-content: space-between;
+}

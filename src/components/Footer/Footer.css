@@ -1,0 +1,14 @@
+.Footer {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AppBar{
+    width: 100%;
+    min-height: 6vh;
+}
+
