@@ -24,8 +24,8 @@ http://4food.arturmagalhaes.surge.sh
   
 - # Como rodar o projeto
 ```bash
-  $ git clone https://github.com/arturmmagalhaes/Labematch.git
-  $ cd Labematch
+  $ git clone https://github.com/arturmmagalhaes/4food.git
+  $ cd 4food
   $ npm install
   $ npm run start
  ```
